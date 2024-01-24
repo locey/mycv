@@ -20,43 +20,44 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Jun Luo",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Zhenjiang, Jiangsu, China",
+  locationLink: "https://www.google.com/maps/place/Zhenjiang,+Jiangsu,+China/",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "I am a full-stack engineer with strong curiosity about new technologies.",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a full stack engineer, I have successfully taken multiple products from 0 to 1. In the previous team, I served as PM and TL to ensure that team members can work efficiently. At present, I mainly study JS full stack, and have an in-depth understanding of Nginx, Linux, live broadcast services, CDN, and QT. I have more than two years of remote working experience.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/58545665?v=4",
+  personalWebsiteUrl: "https://locey.fun",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "locey5201314@gmail.com",
+    tel: "+8617794536766",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/locey",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/jun-luo-5004a726b/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Zhejiang University",
+      degree: "Master's Degree in Electrical Engineering,  ",
+      start: "2017",
+      end: "2020",
+    },
+    {
+      school: "Xi'an Jiaotong University",
+      degree: "Bachelor's Degree in Electrical Engineering",
+      start: "2013",
+      end: "2017",
     },
   ],
   work: [
