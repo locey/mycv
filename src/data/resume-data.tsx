@@ -49,231 +49,201 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Zhejiang University",
-      degree: "Master's Degree in Electrical Engineering,  ",
+      degree: "Master's Degree in Electrical Engineering, 2018 French Summer School First Prize Scholarship, Graduate School First Class Scholarship(1/38),  Outstanding Graduate Graduate School of Zhejiang University, Third Prize for Outstanding Practical Achievements of Zhejiang University, Outstanding cadre of Zhejiang University College, Intermediate engineer title.",
       start: "2017",
       end: "2020",
     },
     {
       school: "Xi'an Jiaotong University",
-      degree: "Bachelor's Degree in Electrical Engineering",
+      degree: "Bachelor's Degree in Electrical Engineering, First -class scholarship, Outstanding cadres of the college.",
       start: "2013",
       end: "2017",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Zhenjiang Luoxi Extreme Network Technology Co., Ltd.",
+      link: "",
+      badges: [],
+      title: "CTO",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      start: "2023.08",
+      end: "Today",
+      description: (
+        <>
+          1)Developed an intelligent motor optimization program using Qt, Ansys, and various artificial intelligence algorithms to optimize motor model parameters.
+          <br />
+          <br />
+          2)Developed a WeChat Mini Program for a Guqin (ancient Chinese musical instrument) online store, enabling product sales, instrument tuning, and metronome functionality.
+          <br />
+          <br />
+          3)Developed an open-source web application that can replicate core functionalities similar to TikTok, with ongoing development.
+          <br />
+          <br />                            
+        </>
+      ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "ZTE",
+      link: "https://www.zte.com.cn/china/",
+      badges: [],
+      title: "PM,TL",
+      logo: ParabolLogo,
+      start: "2020.05",
+      end: "2023.08",
+      description: (
+        <>
+          1)Served as the Head of the Nginx Middle-End Architecture Team, responsible for Nginx development and troubleshooting complex issues.
+          <br />
+          <br />
+          2)Conducted in-depth research into the Linux operating system's internals and TCP network congestion algorithms, enhancing the bandwidth acceleration feature of CDN products (resulting in over 50% increase in single-server bandwidth).
+          <br />
+          <br />
+          3)Built the framework for large and medium-sized CDN products from scratch using Nginx+Lua mechanisms, achieving business architecture decoupling and middleware unification.
+          <br />
+          <br />
+          4)Built a live streaming service for a CDN product from the ground up, supporting both RTMP and FLV live streaming.
+          <br />
+          <br />
+          5)During my employment, I excelled in my role and received numerous prestigious accolades from various group companies, including titles such as Outstanding Graduate, Code Competition Geek Champion, and Innovation Pioneer. Additionally, I received commendations from the General Manager on multiple occasions.          
+          <br />
+          <br />
+          Patents:
+          <br />
+          <br />
+          1)File Aggregation Method, File Aggregation Device, and Server
+          <br />
+          <br />
+          2)Media File Memory Management Method, Apparatus, Computer Device, and Readable Medium
+          <br />
+          <br />
+          3)A Lightweight Nginx Cache File Metadata Management Apparatus and Method
+          <br />
+          <br />
+          4)A Striped Nginx Cache File Management Apparatus and Method                              
+
+        </>
+      ),
+    },
+    {
+      company: "Nanjing Zhengtu Information Technology Co., Ltd.",
+      link: "https://odysec.cn/",
+      badges: [],
+      title: "C++ Development Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      start: "2019.03",
+      end: "2019.09",
+      description: (
+        <>
+          1)Developed camera control software from the ground up, integrating sensors to enable real-time environmental monitoring and alarm features, with installations on over 1,000 devices.
+          <br />
+          <br />
+          2)Proficiently acquired skills in C++, Qt, IEC 104 protocol, SQLite, and more during my tenure.
+          <br />
+          <br />                      
+        </>
+      ),
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "React",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Nginx",
+    "Linux",
+    "Qt",
+    "Machine Learning",
+    "C/C++",
+    "Python",
+    "Lua",
+    "Shell",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "CDN",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "PM,TL",
+        "Nginx",
+        "Linux",
+        "Lua",
+        "TCP",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Utilized Nginx to establish a CDN, thereby achieving resource acceleration for user access.",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "www.zte.com.cn",
+        href: "https://www.zte.com.cn/china/solutions_latest/video_service/iCDN.html",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Pingos",
+      techStack: ["PM,TL", "Nginx", "Linux", "RTMP", "FLV","Lua"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Utilized Nginx to set up live streaming services, enabling RTMP and FLV live broadcasting similar to TikTok's services.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "https://github.com/locey/pingos",
+        href: "https://github.com/locey/pingos",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Substation intelligent monitoring platform",
+      techStack: ["Lead Frontend Developer", "Qt", "C++"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "A Qt-based multi-camera, multi-sensor environmental monitoring software.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "odysec.cn",
+        href: "https://odysec.cn/?list_12/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "GuQinMall",
+      techStack: ["CTO", "Javascript", "Vue"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "A WeChat Mini Program for Guqin commerce, featuring instrument tuning and metronome functions.",
       logo: Minimal,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "",
+        href: "",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Beauty",
+      techStack: ["Side Project", "React", "Javascript"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "An app similar to TikTok that allows unlimited viewing of interesting videos.",
       logo: BarepapersLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "https://github.com/locey/beauty",
+        href: "https://github.com/locey/beauty",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "OptiMotor",
+      techStack: ["CTO", "Qt", "Python", "ML"],
+      description: "An AI-based motor model optimization software.",
       logo: YearProgressLogo,
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "",
+        href: "",
       },
     },
     {
-      title: "Parabol",
+      title: "AIAudio",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
+        "Side Project",
         "Node.js",
-        "GraphQL",
+        "React",
+        "ML",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "An audio background music extraction product.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/locey/AIAudio",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
