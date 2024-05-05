@@ -96,7 +96,7 @@ export const RESUME_DATA = {
           1)Served as the Head of the Nginx Middle-End Architecture Team, responsible for Nginx development and troubleshooting complex issues.
           <br />
           <br />
-          2)Conducted in-depth research into the Linux operating system's internals and TCP network congestion algorithms, enhancing the bandwidth acceleration feature of CDN products (resulting in over 50% increase in single-server bandwidth).
+          2)Conducted in-depth research into the Linux operating system&aposs internals and TCP network congestion algorithms, enhancing the bandwidth acceleration feature of CDN products (resulting in over 50% increase in single-server bandwidth).
           <br />
           <br />
           3)Built the framework for large and medium-sized CDN products from scratch using Nginx+Lua mechanisms, achieving business architecture decoupling and middleware unification.
