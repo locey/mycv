@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "I am a full-stack engineer with strong curiosity about new technologies.",
   summary:
-    "As a full stack engineer, I have successfully taken multiple products from 0 to 1. In the previous team, I served as PM and TL to ensure that team members can work efficiently. At present, I mainly study JS full stack, and have an in-depth understanding of Nginx, Linux, live broadcast services, CDN, and QT. I have more than two years of remote working experience.",
+    "As a full-stack engineer, I have successfully brought several products from zero to one. In previous teams, I served as both the Project Manager (PM) and Team Leader (TL) to ensure that team members could work efficiently. Currently, my main focus is on blockchain backend development, and I have a deep understanding of blockchain, Dapp development, Nginx, Linux, live streaming services, CDN, and QT. I have over two years of remote working experience.",
   avatarUrl: "https://avatars.githubusercontent.com/u/58545665?v=4",
   personalWebsiteUrl: "https://locey.fun",
   contact: {
@@ -71,13 +71,13 @@ export const RESUME_DATA = {
       end: "Today",
       description: (
         <>
-          1)Developed an intelligent motor optimization program using Qt, Ansys, and various artificial intelligence algorithms to optimize motor model parameters.
+          1)Deeply involved in the Dapp development of a decentralized project issuance platform, responsible for its core staking contract and Go backend development.
           <br />
           <br />
-          2)Developed a WeChat Mini Program for a Guqin (ancient Chinese musical instrument) online store, enabling product sales, instrument tuning, and metronome functionality.
+          2)Participated in several blockchain hackathons, developing two GameFi projects based on Chainlink's off-chain randomness.
           <br />
           <br />
-          3)Developed an open-source web application that can replicate core functionalities similar to TikTok, with ongoing development.
+          3)An enthusiast of open-source technology, I have open-sourced several homemade NFT and Dapp projects and deployed them on the blockchain.
           <br />
           <br />                            
         </>
@@ -146,6 +146,12 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "Solidity",
+    "Go",
+    "Rust",
+    "Dapp",
+    "NFT",
+    "Hardhat",
     "JavaScript",
     "React",
     "Node.js",
