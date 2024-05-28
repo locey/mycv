@@ -49,13 +49,15 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Zhejiang University",
-      degree: "Master's Degree in Electrical Engineering, 2018 French Summer School First Prize Scholarship, Graduate School First Class Scholarship(1/38),  Outstanding Graduate Graduate School of Zhejiang University, Third Prize for Outstanding Practical Achievements of Zhejiang University, Outstanding cadre of Zhejiang University College, Intermediate engineer title.",
+      degree:
+        "Master's Degree in Electrical Engineering, 2018 French Summer School First Prize Scholarship, Graduate School First Class Scholarship(1/38),  Outstanding Graduate Graduate School of Zhejiang University, Third Prize for Outstanding Practical Achievements of Zhejiang University, Outstanding cadre of Zhejiang University College, Intermediate engineer title.",
       start: "2017",
       end: "2020",
     },
     {
       school: "Xi'an Jiaotong University",
-      degree: "Bachelor's Degree in Electrical Engineering, First -class scholarship, Outstanding cadres of the college.",
+      degree:
+        "Bachelor's Degree in Electrical Engineering, First -class scholarship, Outstanding cadres of the college.",
       start: "2013",
       end: "2017",
     },
@@ -71,15 +73,19 @@ export const RESUME_DATA = {
       end: "Today",
       description: (
         <>
-          1)Deeply involved in the Dapp development of a decentralized project issuance platform, responsible for its core staking contract and Go backend development.
+          1)Deeply involved in the Dapp development of a decentralized project
+          issuance platform, responsible for its core staking contract and Go
+          backend development.
           <br />
           <br />
-          2)Participated in several blockchain hackathons, developing two GameFi projects based on Chainlink's off-chain randomness.
+          2)Participated in several blockchain hackathons, developing two GameFi
+          projects based on Chainlink off-chain randomness.
           <br />
           <br />
-          3)An enthusiast of open-source technology, I have open-sourced several homemade NFT and Dapp projects and deployed them on the blockchain.
+          3)An enthusiast of open-source technology, I have open-sourced several
+          homemade NFT and Dapp projects and deployed them on the blockchain.
           <br />
-          <br />                            
+          <br />
         </>
       ),
     },
@@ -93,19 +99,30 @@ export const RESUME_DATA = {
       end: "2023.08",
       description: (
         <>
-          1)Served as the Head of the Nginx Middle-End Architecture Team, responsible for Nginx development and troubleshooting complex issues.
+          1)Served as the Head of the Nginx Middle-End Architecture Team,
+          responsible for Nginx development and troubleshooting complex issues.
           <br />
           <br />
-          2)Conducted in-depth research into the Linux operating systems internals and TCP network congestion algorithms, enhancing the bandwidth acceleration feature of CDN products (resulting in over 50% increase in single-server bandwidth).
+          2)Conducted in-depth research into the Linux operating systems
+          internals and TCP network congestion algorithms, enhancing the
+          bandwidth acceleration feature of CDN products (resulting in over 50%
+          increase in single-server bandwidth).
           <br />
           <br />
-          3)Built the framework for large and medium-sized CDN products from scratch using Nginx+Lua mechanisms, achieving business architecture decoupling and middleware unification.
+          3)Built the framework for large and medium-sized CDN products from
+          scratch using Nginx+Lua mechanisms, achieving business architecture
+          decoupling and middleware unification.
           <br />
           <br />
-          4)Built a live streaming service for a CDN product from the ground up, supporting both RTMP and FLV live streaming.
+          4)Built a live streaming service for a CDN product from the ground up,
+          supporting both RTMP and FLV live streaming.
           <br />
           <br />
-          5)During my employment, I excelled in my role and received numerous prestigious accolades from various group companies, including titles such as Outstanding Graduate, Code Competition Geek Champion, and Innovation Pioneer. Additionally, I received commendations from the General Manager on multiple occasions.          
+          5)During my employment, I excelled in my role and received numerous
+          prestigious accolades from various group companies, including titles
+          such as Outstanding Graduate, Code Competition Geek Champion, and
+          Innovation Pioneer. Additionally, I received commendations from the
+          General Manager on multiple occasions.
           <br />
           <br />
           Patents:
@@ -114,14 +131,15 @@ export const RESUME_DATA = {
           1)File Aggregation Method, File Aggregation Device, and Server
           <br />
           <br />
-          2)Media File Memory Management Method, Apparatus, Computer Device, and Readable Medium
+          2)Media File Memory Management Method, Apparatus, Computer Device, and
+          Readable Medium
           <br />
           <br />
-          3)A Lightweight Nginx Cache File Metadata Management Apparatus and Method
+          3)A Lightweight Nginx Cache File Metadata Management Apparatus and
+          Method
           <br />
           <br />
-          4)A Striped Nginx Cache File Management Apparatus and Method                              
-
+          4)A Striped Nginx Cache File Management Apparatus and Method
         </>
       ),
     },
@@ -135,12 +153,15 @@ export const RESUME_DATA = {
       end: "2019.09",
       description: (
         <>
-          1)Developed camera control software from the ground up, integrating sensors to enable real-time environmental monitoring and alarm features, with installations on over 1,000 devices.
+          1)Developed camera control software from the ground up, integrating
+          sensors to enable real-time environmental monitoring and alarm
+          features, with installations on over 1,000 devices.
           <br />
           <br />
-          2)Proficiently acquired skills in C++, Qt, IEC 104 protocol, SQLite, and more during my tenure.
+          2)Proficiently acquired skills in C++, Qt, IEC 104 protocol, SQLite,
+          and more during my tenure.
           <br />
-          <br />                      
+          <br />
         </>
       ),
     },
@@ -167,14 +188,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "CDN",
-      techStack: [
-        "PM,TL",
-        "Nginx",
-        "Linux",
-        "Lua",
-        "TCP",
-      ],
-      description: "Utilized Nginx to establish a CDN, thereby achieving resource acceleration for user access.",
+      techStack: ["PM,TL", "Nginx", "Linux", "Lua", "TCP"],
+      description:
+        "Utilized Nginx to establish a CDN, thereby achieving resource acceleration for user access.",
       logo: ConsultlyLogo,
       link: {
         label: "www.zte.com.cn",
@@ -183,7 +199,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Pingos",
-      techStack: ["PM,TL", "Nginx", "Linux", "RTMP", "FLV","Lua"],
+      techStack: ["PM,TL", "Nginx", "Linux", "RTMP", "FLV", "Lua"],
       description:
         "Utilized Nginx to set up live streaming services, enabling RTMP and FLV live broadcasting similar to TikTok's services.",
       logo: MonitoLogo,
@@ -237,14 +253,8 @@ export const RESUME_DATA = {
     },
     {
       title: "AIAudio",
-      techStack: [
-        "Side Project",
-        "Node.js",
-        "React",
-        "ML",
-      ],
-      description:
-        "An audio background music extraction product.",
+      techStack: ["Side Project", "Node.js", "React", "ML"],
+      description: "An audio background music extraction product.",
       logo: ParabolLogo,
       link: {
         label: "github.com",
