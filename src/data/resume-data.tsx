@@ -187,6 +187,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "C2N-LaunchPad",
+      techStack: ["TL", "Solidity", "Contract", "Hardhat"],
+      description:
+        "A management platform for project party pledge mining and crowdfunding.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://c2-n-launchpad.vercel.app/",
+        href: "https://c2-n-launchpad.vercel.app/",
+      },
+    },
+    {
       title: "CDN",
       techStack: ["PM,TL", "Nginx", "Linux", "Lua", "TCP"],
       description:
