@@ -32,7 +32,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://locey.fun",
   contact: {
     email: "locey5201314@gmail.com",
-    tel: "+8617794536766",
+    tel: "+8618052813378",
     social: [
       {
         name: "GitHub",
@@ -195,6 +195,27 @@ export const RESUME_DATA = {
       link: {
         label: "https://c2-n-launchpad.vercel.app/",
         href: "https://c2-n-launchpad.vercel.app/",
+      },
+    },
+    {
+      title: "chinese-zodiac-nft",
+      techStack: ["Hackathon Project", "Solidity", "ethers.js", "Hardhat"],
+      description: "A zodiac NFT project based on off-chain random numbers.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://chinese-zodiac-nft.vercel.app/",
+        href: "https://chinese-zodiac-nft.vercel.app/",
+      },
+    },
+    {
+      title: "BuyMeACoffee",
+      techStack: ["Side Project", "Solidity", "ethers.js", "Hardhat"],
+      description:
+        "A donation sponsorship DAPP based on front-end + contract deployment of hardhat+ethers.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://github.com/locey/BuyMeACoffee",
+        href: "https://github.com/locey/BuyMeACoffee",
       },
     },
     {
