@@ -67,23 +67,43 @@ export const RESUME_DATA = {
       company: "Zhenjiang Luoxi Extreme Network Technology Co., Ltd.",
       link: "",
       badges: [],
-      title: "CTO",
+      title: "TL",
       logo: ParabolLogo,
-      start: "2023.08",
+      start: "2022.08",
       end: "Today",
       description: (
         <>
-          1)Deeply involved in the Dapp development of a decentralized project
-          issuance platform, responsible for its core staking contract and Go
-          backend development.
+          1) Core Developer, C2N-launchpad: Developed ERC-20 and ERC-721 smart
+          contracts using Solidity and OpenZeppelin, managing assets over $5
+          million with 10,000+ active users. Optimized contract deployment
+          reducing transaction costs by 30% with Hardhat. Implemented automated
+          audits with Slither and Mythril, fixing 10+ potential vulnerabilities.
           <br />
           <br />
-          2)Participated in several blockchain hackathons, developing two GameFi
-          projects based on Chainlink off-chain randomness.
+          2) High-Performance Backend Developer: Built high-concurrency services
+          with Rust and Actix-web, supporting over 10,000 requests per second.
+          Enhanced data handling and increased transaction throughput by 20%
+          using the Substrate framework. Improved data query performance by 50%
+          with Redis and MongoDB integrations.
           <br />
           <br />
-          3)An enthusiast of open-source technology, I have open-sourced several
-          homemade NFT and Dapp projects and deployed them on the blockchain.
+          3) Blockchain Hackathon Winner: Developed GameFi applications using
+          Chainlink VRF to ensure fairness and transparency, attracting over 500
+          users. Reduced interaction latency by 30% by optimizing smart
+          contracts and frontend interactions with ethers.js.
+          <br />
+          <br />
+          4) Open Source Contributor: Released several NFT and Dapp projects on
+          GitHub using Ethereum and Polygon networks. Utilized Truffle and
+          Ganache for development and testing, enhancing project openness and
+          maintainability.
+          <br />
+          <br />
+          5) Expert in Blockchain Technology: Proficient in Ethereum Layer 2
+          solutions like Optimism and Arbitrum to enhance transaction speed and
+          reduce costs. Skilled in cross-chain technologies like Polkadot and
+          Cosmos for multi-chain interoperability. Familiar with zk-SNARKs for
+          enhancing transaction privacy and security.
           <br />
           <br />
         </>
@@ -96,7 +116,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2023.08",
+      end: "2022.08",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
@@ -168,7 +188,6 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Solidity",
-    "Go",
     "Rust",
     "Dapp",
     "NFT",
