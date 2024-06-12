@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "TL",
       logo: ParabolLogo,
-      start: "2022.08",
+      start: "2023.08",
       end: "Today",
       description: (
         <>
@@ -116,7 +116,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2022.08",
+      end: "2023.08",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
