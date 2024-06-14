@@ -64,46 +64,40 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Zhenjiang Luoxi Extreme Network Technology Co., Ltd.",
+      company: "Roche Limit",
       link: "",
       badges: [],
       title: "TL",
       logo: ParabolLogo,
-      start: "2022.08",
+      start: "2023.08",
       end: "Today",
       description: (
         <>
-          1) Core Developer, C2N-launchpad: Developed ERC-20 and ERC-721 smart
-          contracts using Solidity and OpenZeppelin, managing assets over $5
-          million with 10,000+ active users. Optimized contract deployment
-          reducing transaction costs by 30% with Hardhat. Implemented automated
-          audits with Slither and Mythril, fixing 10+ potential vulnerabilities.
+          1) Core Developer for C2N Exchange: Responsible for developing a
+          project crowdfunding and staking platform using Solidity,
+          OpenZeppelin, and Hardhat. The platform allows users to stake tokens
+          and participate in crowdfunding projects. It has successfully launched
+          and supports dozens of projects.
           <br />
           <br />
-          2) High-Performance Backend Developer: Built high-concurrency services
-          with Rust and Actix-web, supporting over 10,000 requests per second.
-          Enhanced data handling and increased transaction throughput by 20%
-          using the Substrate framework. Improved data query performance by 50%
-          with Redis and MongoDB integrations.
+          2) Technical Manager for NFT Marketplace: Independently developed an
+          NFT marketplace with frontend using Next.js, ethers.js, and Wagmi,
+          backend using go-ethereum and MongoDB, and smart contracts using
+          Solidity, Hardhat, and Moralis. Implemented features such as listing,
+          selling, delisting NFTs, and fee withdrawal.
           <br />
           <br />
-          3) Blockchain Hackathon Winner: Developed GameFi applications using
-          Chainlink VRF to ensure fairness and transparency, attracting over 500
-          users. Reduced interaction latency by 30% by optimizing smart
-          contracts and frontend interactions with ethers.js.
+          3) Lead in Multiple Hackathon Award-Winning Projects: Led teams in
+          various hackathons, developed a lottery GameFi project using Chainlink
+          off-chain randomness, won the outstanding project award, and received
+          a reward of 500 USDC.
           <br />
           <br />
-          4) Open Source Contributor: Released several NFT and Dapp projects on
-          GitHub using Ethereum and Polygon networks. Utilized Truffle and
-          Ganache for development and testing, enhancing project openness and
-          maintainability.
-          <br />
-          <br />
-          5) Expert in Blockchain Technology: Proficient in Ethereum Layer 2
-          solutions like Optimism and Arbitrum to enhance transaction speed and
-          reduce costs. Skilled in cross-chain technologies like Polkadot and
-          Cosmos for multi-chain interoperability. Familiar with zk-SNARKs for
-          enhancing transaction privacy and security.
+          4) Passionate Open Source Contributor: Developed and open-sourced
+          multiple beginner-friendly blockchain Dapp projects, proficient in
+          Solidity, Remix, Hardhat, OpenZeppelin, Ethers.js, Rust, JavaScript,
+          and go-ethereum, demonstrating strong coding and problem-solving
+          skills.
           <br />
           <br />
         </>
@@ -116,7 +110,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2022.08",
+      end: "2023.08",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
@@ -214,6 +208,24 @@ export const RESUME_DATA = {
       link: {
         label: "https://c2-n-launchpad.vercel.app/",
         href: "https://c2-n-launchpad.vercel.app/",
+      },
+    },
+    {
+      title: "NFT-Marketplace",
+      techStack: [
+        "TL",
+        "Solidity",
+        "Next.js",
+        "Hardhat",
+        "MongoDB",
+        "go-ethereum",
+      ],
+      description:
+        "An NFT marketplace with a frontend and backend, and smart contracts, allowing users to list, sell, and delist NFTs, and withdraw fees.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "",
       },
     },
     {
