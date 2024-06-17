@@ -64,40 +64,41 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Roche Limit",
+      company: "Bluebit",
       link: "",
       badges: [],
-      title: "TL",
+      title: "Senior Blockchain Development Engineer",
       logo: ParabolLogo,
-      start: "2023.08",
+      start: "2023.06",
       end: "Today",
       description: (
         <>
-          1) Core Developer for C2N Exchange: Responsible for developing a
+          1) Core Developer for Bluebit Exchange: Responsible for developing a
           project crowdfunding and staking platform using Solidity,
-          OpenZeppelin, and Hardhat. The platform allows users to stake tokens
-          and participate in crowdfunding projects. It has successfully launched
-          and supports dozens of projects.
+          OpenZeppelin, and Hardhat. This platform enables projects to launch
+          through token staking and crowdfunding, with the development completed
+          and supporting the launch of dozens of projects.
           <br />
           <br />
-          2) Technical Manager for NFT Marketplace: Independently developed an
-          NFT marketplace with frontend using Next.js, ethers.js, and Wagmi,
-          backend using go-ethereum and MongoDB, and smart contracts using
-          Solidity, Hardhat, and Moralis. Implemented features such as listing,
-          selling, delisting NFTs, and fee withdrawal.
+          2) Technical Manager for NFT Marketplace: Independently completed the
+          development of an NFT marketplace. The front-end was developed using
+          Next.js, ethers.js, and Wagmi, the back-end using go-ethereum and
+          MongoDB, and the contracts using Solidity, Hardhat, and Moralis.
+          Features implemented include listing, selling, delisting NFTs, and fee
+          withdrawal.
           <br />
           <br />
-          3) Lead in Multiple Hackathon Award-Winning Projects: Led teams in
-          various hackathons, developed a lottery GameFi project using Chainlink
-          off-chain randomness, won the outstanding project award, and received
-          a reward of 500 USDC.
+          3) Leader in Multiple Hackathon Award-Winning Projects: Repeatedly led
+          teams in various hackathons, developing a lottery GameFi project using
+          Chainlink off-chain randomness, which won the outstanding project
+          award and received a 500 USDC reward.
           <br />
           <br />
           4) Passionate Open Source Contributor: Developed and open-sourced
-          multiple beginner-friendly blockchain Dapp projects, proficient in
-          Solidity, Remix, Hardhat, OpenZeppelin, Ethers.js, Rust, JavaScript,
-          and go-ethereum, demonstrating strong coding and problem-solving
-          skills.
+          multiple beginner-friendly blockchain Dapp projects and actively
+          organized documentation. Proficient in Solidity, Remix, Hardhat,
+          OpenZeppelin, Ethers.js, Rust, JavaScript, and go-ethereum,
+          demonstrating strong coding and problem-solving skills.
           <br />
           <br />
         </>
@@ -110,7 +111,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2023.08",
+      end: "2023.06",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
@@ -200,8 +201,13 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "C2N-LaunchPad",
-      techStack: ["TL", "Solidity", "Contract", "Hardhat"],
+      title: "Bluebit-LaunchPad",
+      techStack: [
+        "Senior Blockchain Development Engineer",
+        "Solidity",
+        "Contract",
+        "Hardhat",
+      ],
       description:
         "A management platform for project party pledge mining and crowdfunding.",
       logo: ConsultlyLogo,
@@ -284,7 +290,7 @@ export const RESUME_DATA = {
     },
     {
       title: "GuQinMall",
-      techStack: ["CTO", "Javascript", "Vue"],
+      techStack: ["Side Project", "Javascript", "Vue"],
       description:
         "A WeChat Mini Program for Guqin commerce, featuring instrument tuning and metronome functions.",
       logo: Minimal,
@@ -306,7 +312,7 @@ export const RESUME_DATA = {
     },
     {
       title: "OptiMotor",
-      techStack: ["CTO", "Qt", "Python", "ML"],
+      techStack: ["Side Project", "Qt", "Python", "ML"],
       description: "An AI-based motor model optimization software.",
       logo: YearProgressLogo,
       link: {
