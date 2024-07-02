@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Zhenjiang, Jiangsu, China",
   locationLink: "https://www.google.com/maps/place/Zhenjiang,+Jiangsu,+China/",
   about:
-    "I am a full-stack engineer with strong curiosity about new technologies.",
+    "I am a blockchain development engineer with a strong curiosity about new technologies.",
   summary:
-    "As a full-stack engineer, I have successfully brought several products from zero to one. In previous teams, I served as both the Project Manager (PM) and Team Leader (TL) to ensure that team members could work efficiently. Currently, my main focus is on blockchain backend development, and I have a deep understanding of blockchain, Dapp development, Nginx, Linux, live streaming services, CDN, and QT. I have over two years of remote working experience.",
+    "As a senior blockchain development engineer, I graduated with both bachelor's and master's degrees from a C9 university. I have four years of backend development experience and one year of smart contract development experience. I am proficient in Solidity, Go, C/C++, JavaScript, Python, and Lua, and have a deep understanding of smart contract development, blockchain backend development, Nginx, and the Linux kernel.",
   avatarUrl: "https://avatars.githubusercontent.com/u/58545665?v=4",
   personalWebsiteUrl: "https://locey.fun",
   contact: {
@@ -97,8 +97,13 @@ export const RESUME_DATA = {
           4) Passionate Open Source Contributor: Developed and open-sourced
           multiple beginner-friendly blockchain Dapp projects and actively
           organized documentation. Proficient in Solidity, Remix, Hardhat,
-          OpenZeppelin, Ethers.js, Rust, JavaScript, and go-ethereum,
-          demonstrating strong coding and problem-solving skills.
+          OpenZeppelin, Ethers.js, Golang, JavaScript, and go-ethereum,
+          demonstrating strong coding and problem-solving skills. Additionally,
+          I have extensive experience in rollups, bridges, cosmos, and
+          zero-knowledge proofs (zk-SNARKs), having successfully implemented
+          rollup-based scaling solutions, cross-chain bridge technologies for
+          seamless interoperability, and zero-knowledge proof protocols to
+          ensure data privacy and security.
           <br />
           <br />
         </>
@@ -183,7 +188,7 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Solidity",
-    "Rust",
+    "Golang",
     "Dapp",
     "NFT",
     "Hardhat",
