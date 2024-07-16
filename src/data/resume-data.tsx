@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "I am a blockchain development engineer with a strong curiosity about new technologies.",
   summary:
-    "As a senior blockchain development engineer, I graduated with both bachelor's and master's degrees from a C9 university. I have four years of backend development experience and one year of smart contract development experience. I am proficient in Solidity, Go, C/C++, JavaScript, Python, and Lua, and have a deep understanding of smart contract development, blockchain backend development, Nginx, and the Linux kernel.",
+    "As a senior blockchain development engineer, I graduated with both bachelor's and master's degrees from a C9 university. I have four years of backend development experience and two years of smart contract development experience. I am proficient in Solidity, Go, C/C++, JavaScript, Python, and Lua, and have a deep understanding of smart contract development, blockchain backend development, Nginx, and the Linux kernel.",
   avatarUrl: "https://avatars.githubusercontent.com/u/58545665?v=4",
   personalWebsiteUrl: "https://locey.fun",
   contact: {
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       badges: [],
       title: "Senior Blockchain Development Engineer",
       logo: ParabolLogo,
-      start: "2023.06",
+      start: "2022.06",
       end: "Today",
       description: (
         <>
@@ -116,7 +116,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2023.06",
+      end: "2022.06",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
