@@ -74,36 +74,34 @@ export const RESUME_DATA = {
       description: (
         <>
           1) Core Developer for Bluebit Exchange: Responsible for developing a
-          project crowdfunding and staking platform using Solidity,
-          OpenZeppelin, and Hardhat. This platform enables projects to launch
-          through token staking and crowdfunding, with the development completed
-          and supporting the launch of dozens of projects.
+          cross-chain BTC staking and reward project based on EVM, LayerZero,
+          and Go-Ethereum. The project allows users to stake BTC and earn points
+          as rewards, successfully deployed across multiple blockchain networks
+          and DeFi pools. Independently developed a cross-chain data monitoring
+          platform based on Go-Ethereum to ensure the security of cross-chain
+          interactions.
           <br />
           <br />
           2) Technical Manager for NFT Marketplace: Independently completed the
-          development of an NFT marketplace. The front-end was developed using
-          Next.js, ethers.js, and Wagmi, the back-end using go-ethereum and
-          MongoDB, and the contracts using Solidity, Hardhat, and Moralis.
-          Features implemented include listing, selling, delisting NFTs, and fee
-          withdrawal.
+          development of an NFT marketplace, with the frontend built using
+          Next.js, the backend using Go-Ethereum and MongoDB, and smart
+          contracts using Solidity and Hardhat. The platform supports features
+          like minting, buying, selling, lazy minting, and auctions for any NFT.
+          It is currently live on Ethereum, BSC, and Polygon networks.
           <br />
           <br />
-          3) Leader in Multiple Hackathon Award-Winning Projects: Repeatedly led
-          teams in various hackathons, developing a lottery GameFi project using
-          Chainlink off-chain randomness, which won the outstanding project
-          award and received a 500 USDC reward.
+          3) Leader in Multiple Hackathon Award-Winning Projects: Led teams to
+          participate in several hackathons, developing a lottery GameFi project
+          using Chainlink off-chain randomness, which won an outstanding project
+          award and a reward of 500 USDC.
           <br />
           <br />
-          4) Passionate Open Source Contributor: Developed and open-sourced
-          multiple beginner-friendly blockchain Dapp projects and actively
-          organized documentation. Proficient in Solidity, Remix, Hardhat,
-          OpenZeppelin, Ethers.js, Golang, JavaScript, and go-ethereum,
-          demonstrating strong coding and problem-solving skills. Additionally,
-          I have extensive experience in rollups, bridges, cosmos, and
-          zero-knowledge proofs (zk-SNARKs), having successfully implemented
-          rollup-based scaling solutions, cross-chain bridge technologies for
-          seamless interoperability, and zero-knowledge proof protocols to
-          ensure data privacy and security.
+          4) Passionate About Open Source: Developed and open-sourced multiple
+          beginner-friendly blockchain DApp projects and actively organized
+          documentation. Proficient in technologies like Solidity, Remix,
+          Hardhat, OpenZeppelin, Ethers.js, Go, JavaScript, Go-Ethereum, Move,
+          Rust, and LayerZero cross-chain solutions, demonstrating strong coding
+          and problem-solving abilities.
           <br />
           <br />
         </>
