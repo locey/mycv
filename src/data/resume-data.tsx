@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "I am a blockchain development engineer with a strong curiosity about new technologies.",
   summary:
-    "As a senior blockchain development engineer, I graduated with both bachelor's and master's degrees from a C9 university. I have four years of backend development experience and two years of smart contract development experience. I am proficient in Solidity, Go, C/C++, JavaScript, Python, and Lua, and have a deep understanding of smart contract development, blockchain backend development, Nginx, and the Linux kernel.",
+    "As a senior blockchain development engineer, I graduated with both bachelor and master degrees from a C9 university. I have four years of backend development experience and two years of smart contract development experience. I am proficient in Solidity, Go, C/C++, JavaScript, Python, and Lua, and have a deep understanding of smart contract development, blockchain backend development, Nginx, and the Linux kernel.",
   avatarUrl: "https://avatars.githubusercontent.com/u/58545665?v=4",
   personalWebsiteUrl: "https://locey.fun",
   contact: {
@@ -50,14 +50,14 @@ export const RESUME_DATA = {
     {
       school: "Zhejiang University",
       degree:
-        "Master's Degree in Electrical Engineering, 2018 French Summer School First Prize Scholarship, Graduate School First Class Scholarship(1/38),  Outstanding Graduate Graduate School of Zhejiang University, Third Prize for Outstanding Practical Achievements of Zhejiang University, Outstanding cadre of Zhejiang University College, Intermediate engineer title.",
+        "Master Degree in Electrical Engineering, 2018 French Summer School First Prize Scholarship, Graduate School First Class Scholarship(1/38),  Outstanding Graduate Graduate School of Zhejiang University, Third Prize for Outstanding Practical Achievements of Zhejiang University, Outstanding cadre of Zhejiang University College, Intermediate engineer title.",
       start: "2017",
       end: "2020",
     },
     {
-      school: "Xi'an Jiaotong University",
+      school: "Xian Jiaotong University",
       degree:
-        "Bachelor's Degree in Electrical Engineering, First -class scholarship, Outstanding cadres of the college.",
+        "Bachelor Degree in Electrical Engineering, First -class scholarship, Outstanding cadres of the college.",
       start: "2013",
       end: "2017",
     },
@@ -73,7 +73,7 @@ export const RESUME_DATA = {
       end: "today",
       description: (
         <>
-          1) Core Backend Developer for PumpBTC: Responsible for core backend development of PumpBTC's point system, API services, and Dashboard components using Rust, PostgreSQL, and Redis. Enabled real-time point calculations for 23 blockchain networks, serving over 300,000 users and achieving a TVL exceeding $500 million.
+          1) Core Backend Developer for PumpBTC: Responsible for core backend development of PumpBTC point system, API services, and Dashboard components using Rust, PostgreSQL, and Redis. Enabled real-time point calculations for 23 blockchain networks, serving over 300,000 users and achieving a TVL exceeding $500 million.
           <br />
           <br />
           2) Security Component Developer for Bridge Cross-chain Platform: Independently developed a cross-chain bridge security monitoring platform based on Go, PostgreSQL, and Redis, specifically for monitoring Meson bridge asset transfers. The platform includes real-time tracking of multi-pool TVL, token pricing, whale activities, user withdrawals, risk control, and alert integrations with Telegram and Lark, maintaining stable operations with zero production bugs.
@@ -346,7 +346,7 @@ export const RESUME_DATA = {
       title: "Pingos",
       techStack: ["PM,TL", "Nginx", "Linux", "RTMP", "FLV", "Lua"],
       description:
-        "Utilized Nginx to set up live streaming services, enabling RTMP and FLV live broadcasting similar to TikTok's services.",
+        "Utilized Nginx to set up live streaming services, enabling RTMP and FLV live broadcasting similar to TikTok services.",
       logo: MonitoLogo,
       link: {
         label: "https://github.com/locey/pingos",
