@@ -64,13 +64,44 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "PumpBTC",
+      link: "https://mainnet.pumpbtc.xyz/",
+      badges: [],
+      title: "Senior Blockchain Development Engineer",
+      logo: ParabolLogo,
+      start: "2024.07",
+      end: "today",
+      description: (
+        <>
+          1) Core Backend Developer for PumpBTC: Responsible for core backend development of PumpBTC's point system, API services, and Dashboard components using Rust, PostgreSQL, and Redis. Enabled real-time point calculations for 23 blockchain networks, serving over 300,000 users and achieving a TVL exceeding $500 million.
+          <br />
+          <br />
+          2) Security Component Developer for Bridge Cross-chain Platform: Independently developed a cross-chain bridge security monitoring platform based on Go, PostgreSQL, and Redis, specifically for monitoring Meson bridge asset transfers. The platform includes real-time tracking of multi-pool TVL, token pricing, whale activities, user withdrawals, risk control, and alert integrations with Telegram and Lark, maintaining stable operations with zero production bugs.
+          <br />
+          <br />
+          3) Smart Contract Developer for PumpHYPE: Developed a comprehensive set of Proof-of-Stake (POS) staking contracts utilizing Solidity, OpenZeppelin, and HyperLiquid protocols. These contracts enable users to stake HYPE tokens on Hyper EVM and participate in POS staking on Hyper L1 to earn rebase rewards.
+          <br />
+          <br />
+          4) ATTPS Cross-chain Communication Protocol SDK Developer: Independently developed an SDK for the ATTPS cross-chain communication protocol using Rust, facilitating seamless cross-chain interactions.
+          <br />
+          <br />
+          5) Backend Developer for BTCfi Project: Solely responsible for backend development of the BTCfi project using Rust, enabling real-time calculation of TVL and APY for contract pools.
+          <br />
+          <br />
+          6) Blockchain Research and Documentation Specialist: Conducted in-depth technical analyses of dozens of blockchain projects, including LayerZero, DODO, and Lido, independently producing over 100 detailed project documentation articles. Successfully applied insights from this research directly into active development, demonstrating exceptional research and documentation capabilities.
+          <br />
+          <br />
+        </>
+      ),
+    },
+    {
       company: "Bluebit",
       link: "",
       badges: [],
       title: "Senior Blockchain Development Engineer",
       logo: ParabolLogo,
-      start: "2022.06",
-      end: "Today",
+      start: "2023.06",
+      end: "2024.07",
       description: (
         <>
           1) Core Developer for Bluebit Exchange: Responsible for developing a
@@ -114,7 +145,7 @@ export const RESUME_DATA = {
       title: "PM,TL",
       logo: ParabolLogo,
       start: "2020.05",
-      end: "2022.06",
+      end: "2023.06",
       description: (
         <>
           1)Served as the Head of the Nginx Middle-End Architecture Team,
@@ -187,6 +218,8 @@ export const RESUME_DATA = {
   skills: [
     "Solidity",
     "Golang",
+    "Rust",
+    "Move",
     "Dapp",
     "NFT",
     "Hardhat",
@@ -203,6 +236,46 @@ export const RESUME_DATA = {
     "Shell",
   ],
   projects: [
+    {
+      title: "PumpBTC",
+      techStack: [
+        "Senior Blockchain Development Engineer",
+        "Solidity",
+        "Contract",
+        "Hardhat",
+        "Rust",
+        "Go",
+        "PostgreSQL",
+        "Redis",
+      ],
+      description:
+        "A point system for PumpBTC, a cross-chain BTC staking and reward project based on EVM, LayerZero, and Go-Ethereum.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://mainnet.pumpbtc.xyz/",
+        href: "https://mainnet.pumpbtc.xyz/",
+      },
+    },
+    {
+      title: "BTCFI",
+      techStack: [
+        "Senior Blockchain Development Engineer",
+        "Solidity",
+        "Contract",
+        "Hardhat",
+        "Rust",
+        "Go",
+        "PostgreSQL",
+        "Redis",
+      ],
+      description:
+        "A BTC lending fund project.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://app.btc-fi.ai/market",
+        href: "https://app.btc-fi.ai/market",
+      },
+    },
     {
       title: "Bluebit-LaunchPad",
       techStack: [
