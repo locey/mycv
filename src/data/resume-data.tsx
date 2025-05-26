@@ -73,26 +73,30 @@ export const RESUME_DATA = {
       end: "today",
       description: (
         <>
-          1) Core Backend Developer for PumpBTC: Responsible for core backend development of PumpBTC point system, API services, and Dashboard components using Rust, PostgreSQL, and Redis. Enabled real-time point calculations for 23 blockchain networks, serving over 300,000 users and achieving a TVL exceeding $500 million.
+          1) Core Backend Developer for PumpBTC: Responsible for core backend development of PumpBTC point system, API services, and dashboard components using Rust, PostgreSQL, and Redis. Supported real-time point calculation across 23 blockchain networks, serving over 300,000 users with a project TVL exceeding $500 million.
           <br />
           <br />
-          2) Security Component Developer for Bridge Cross-chain Platform: Independently developed a cross-chain bridge security monitoring platform based on Go, PostgreSQL, and Redis, specifically for monitoring Meson bridge asset transfers. The platform includes real-time tracking of multi-pool TVL, token pricing, whale activities, user withdrawals, risk control, and alert integrations with Telegram and Lark, maintaining stable operations with zero production bugs.
+          2) Security Component Developer for Bridge Cross-chain Platform: Independently built a security monitoring platform for the Meson cross-chain bridge using Go, PostgreSQL, and Redis. Features include real-time monitoring of multi-pool TVL, token prices, whale wallet activities, user withdrawals, risk controls, and integrated alerting via Telegram bot and Lark. Delivered a stable system with zero production bugs.
           <br />
           <br />
-          3) Smart Contract Developer for PumpHYPE: Developed a comprehensive set of Proof-of-Stake (POS) staking contracts utilizing Solidity, OpenZeppelin, and HyperLiquid protocols. These contracts enable users to stake HYPE tokens on Hyper EVM and participate in POS staking on Hyper L1 to earn rebase rewards.
+          3) Smart Contract Developer for PumpHYPE: Developed a full suite of POS staking smart contracts using Solidity, OpenZeppelin, and the HyperLiquid protocol. Enabled users to stake HYPE on Hyper EVM and participate in POS staking on Hyper L1 to earn Rebase rewards.
           <br />
           <br />
-          4) ATTPS Cross-chain Communication Protocol SDK Developer: Independently developed an SDK for the ATTPS cross-chain communication protocol using Rust, facilitating seamless cross-chain interactions.
+          4) ATTPS Cross-chain Protocol SDK Developer: Independently developed a Rust SDK supporting both ATTPS EVM and Solana contracts. The SDK enables cross-chain interaction and on-chain data parsing between EVM and Solana ecosystems.
           <br />
           <br />
-          5) Backend Developer for BTCfi Project: Solely responsible for backend development of the BTCfi project using Rust, enabling real-time calculation of TVL and APY for contract pools.
+          5) Backend Developer for BTCfi Project: Solely responsible for backend development using Rust. Implemented real-time TVL and APY calculations for contract pools, and integrated an offline Oracle for real-time token price updates.
           <br />
           <br />
-          6) Blockchain Research and Documentation Specialist: Conducted in-depth technical analyses of dozens of blockchain projects, including LayerZero, DODO, and Lido, independently producing over 100 detailed project documentation articles. Successfully applied insights from this research directly into active development, demonstrating exceptional research and documentation capabilities.
+          6) Moss AI – Crypto Tweet Analysis Workflow: Designed and developed an AI-powered workflow using LLM APIs to analyze crypto-related tweets. Leveraged vector databases to support modules such as token price MCP and sentiment MCP, and automatically generated personalized user reports.
+          <br />
+          <br />
+          7) Blockchain Research and Documentation Specialist: Conducted deep technical research on dozens of blockchain projects including LayerZero, DODO, and Lido. Authored over 100 comprehensive development documents and successfully applied insights to real-world project implementations, showcasing strong analytical and documentation skills.
           <br />
           <br />
         </>
       ),
+      
     },
     {
       company: "Bluebit",
